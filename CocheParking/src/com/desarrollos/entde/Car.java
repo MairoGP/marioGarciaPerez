@@ -1,7 +1,7 @@
 package com.desarrollos.entde;
 
-import java.util.Arrays;
-import java.awt.Color;
+//import java.util.Arrays;
+//import java.awt.Color;
 /**
  * Class that models objects of type "car"
  * 
@@ -30,10 +30,10 @@ public class Car
     	Garage g = new Garage();
     	Car car = new Car(g);
         car.accelerate();
-        slowDown();
-        moveDown();
-        accelerate();
-        car.printGarage();
+        //slowDown();
+        //moveDown();
+        //accelerate();
+        //car.printGarage();
 //        turnRight();
 //        turnHeadlightsOn();
 //        turnHeadlightsOff();
@@ -59,11 +59,11 @@ public class Car
      * @throws InterruptedException 
      */
     public void slowDown() throws InterruptedException{
-    	string c = new string("     *");
+    	//string c = new string("     *");
     	for(int i=0; i<5; i++)
         {
-        	System.out.print(c);
-        	c = c.substring(1);
+     //  	System.out.print(c);
+     //   	c = c.substring(1);
         	Thread.sleep(1000);
         }
     	System.out.println();
@@ -74,8 +74,8 @@ public class Car
      * @throws InterruptedException 
      */    
     public void moveDown() throws InterruptedException{
-    	string c = new string("\t\t\t\t  *"));
-    	for(int i=0, i<5, i++)
+    	//string c = new string("\t\t\t\t  *"));
+    /*	for(int i=0, i<5, i++)
         {
     		if(i!=4)
     			System.out.println(c);
@@ -83,6 +83,7 @@ public class Car
     			System.out.print(c);
         	Thread.sleep(1000);
         }
+       */
     }
     
 }
